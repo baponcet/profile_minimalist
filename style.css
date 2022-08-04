@@ -1,0 +1,32 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Code+Pro&display=swap');
+
+/* Components import */
+@import url('components/navbar.css');
+@import url('components/buttons.css');
+@import url('components/social_networks.css');
+@import url('components/container.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Source Code Pro', monospace;
+  background-color: #111111;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  width: 600px;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+p {
+  color: rgba(250, 250, 250, 0.8);
+}

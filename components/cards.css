@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  height: 125px;
+  background-color: rgba(250,250,250, 0.15);
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: solid 1px rgba(250, 250, 250, 0.2)
+}
+.card img {
+  height: 40%;
+  border-radius: 16px;
+  margin: 24px;
+}
+.card p {
+  font-size: 12px;
+  margin-top: 5px;
+  width: 90%;
+}
+.card h3 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}

@@ -38,3 +38,57 @@
   margin: 10px 0 25px 0;
   font-size: 14px;
 }
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 90%;
+  }
+
+  .navbar {
+    display: block;
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 32px;
+  }
+
+  .navbar .nav-left {
+    display: block;
+  }
+  .navbar a {
+    margin: 5px;
+    font-size: 10px;
+  }
+
+  .top-container {
+    display: block;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .top-container h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+
+  .top-container img {
+    position: relative;
+  }
+
+  .top-container p {
+    width: 100%;
+    margin-top: 16px;
+    font-size: 12px;
+  }
+
+  .social-networks {
+    justify-content: center;
+  }
+
+  #logo {
+    font-size: 16px;
+  }
+
+  .card p {
+    margin-bottom: 20px;
+  }
+}
